@@ -18,15 +18,18 @@ A Python-based packet sniffer designed to capture HTTP requests and extract pote
 1. Clone the repository:
    ```bash
    git clone https://github.com/muzi5622/packet_sniffer_with_scapy.git
-   cd packet-sniffer```
+   cd packet-sniffer
+   ```
 
 2. Install required dependencies:
    ```bash
-   pip install scapy```
+   pip install scapy
+   ```
 
 3. Run the script with root privileges:
    ```bash
-   sudo python3 packet_sniffer.py ```
+   sudo python3 packet_sniffer.py
+    ```
 
 ## Usage
 1. Replace `"eth0"` in the script with the name of your active network interface (e.g., `wlan0`, `en0`, etc.).
